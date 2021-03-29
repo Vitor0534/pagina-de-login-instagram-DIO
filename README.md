@@ -1,4 +1,4 @@
-# **RÉPLICA DA PÁGINA INICIAL DO INSTAGRAN** 
+# **RÉPLICA DA PÁGINA INICIAL DO INSTAGRAM** 
 
 O presente repositório contem a réplica da página de login do Instagram. Esse projeto faz parte de um dos desafios do curso de desenvolvimento web da *Digital inovation one* (DIO).
 
