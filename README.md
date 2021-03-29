@@ -11,3 +11,6 @@ No caso desta solução, foi optado por recriar a página de login normal, com o
 - - **Display:      flex** -- utilizado para estilizar flex-containers, que organiza todos      os elementos inline;
   - **align-items:**      center -- para centralizar os elementos dentro do flex-container;
   - **flex-direction:**      collum -- utilizado em um dos flex-containers para indicar a direção de      posicionamento dos itens para o estilo coluna.
+
+
+OBS: Para visualizar a página basta abrir o arquivo index.html no navegador
