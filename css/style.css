@@ -1,0 +1,235 @@
+/*resetando fontes*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+
+body{
+	background-color: #F8F9F9;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	display: flex; /*cria um flex container, para por o itens inline*/
+	align-items: center;
+	justify-content: start;
+	width: 800px;
+	height: 100vh;
+	position: relative;
+	bottom: 5em;
+    
+	/*border: 1px solid red;*/
+}
+
+.phone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.phone img.phone1{
+	height: 38rem;
+    margin-bottom: 1.1em;
+    position: relative;
+    left: 23em;
+    top: 3em;
+}
+
+.phone img.phone2{
+	height: 52rem;
+    margin-bottom: 1.1em;
+    position: relative;
+    right: 19em;
+}
+
+.coluna-formulario{
+	display: flex;
+	align-items: center; /* alinhamento horizontal */
+	justify-content: space-around; /* vertical */
+	flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    text-align: center;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.login{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+
+}
+
+.logo{
+	margin: 30px;
+}
+
+.input input{
+	display: block;
+	margin: 0 auto;
+	width: 175%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #D6DBDF;
+	background-color: #F8F9F9;
+	border-radius: 0.2em;
+	position: relative;
+	right: 5em;
+	padding: 0.5em;
+}
+
+input.submit{
+	border-radius: .5em;
+	background-color: #5DADE2;
+	color: white;
+	font-weight: bold;
+}
+
+/*area de outras opções*/
+.others{
+    width: 81%;
+    display: flex;
+	flex-direction: column;
+}
+
+.others h4{
+	background-color: white;
+	position: relative;
+	margin: 0 auto;
+	top: -0.6em;
+	width: 8em;
+	text-align: center;
+}
+.others a{
+	display: block;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.others a.container-facebook{
+	border: 1px solid red;
+}
+
+.others a.Facebook img{
+	position: relative;
+	top: 0.2em;
+	width: 18px;
+}
+
+.others a.Facebook{
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+/*links não visitados*/
+.others a:link{
+	color: #2874A6;
+}
+/*links visitados*/
+.others a:visited{
+	color: #2874A6;
+}
+/*links hover, ao passar o cursor sobre o link*/
+.others  a:hover{
+	color: #515A5A ;
+}
+
+/*links ativos. quando clicado*/
+.others  a:active{
+	color: black;
+
+}
+
+
+/*area para obter nova conta*/
+.sem-conta{
+	background-color: white;
+	text-align: center;
+	border: 1px solid #D6DBDF;
+	margin: 0.8em 0 0.8em 0;
+	width: 100%;
+	height: 4em;
+	padding-top: 1.4em;
+}
+
+/*links não visitados*/
+.sem-conta a:link{
+	color:  #43A5FF;
+	font-weight: bold;
+}
+/*links visitados*/
+.sem-conta a:visited{
+	color:  #43A5FF;
+}
+/*links hover, ao passar o cursor sobre o link*/
+.sem-conta a:hover{
+	color: #515A5A ;
+}
+
+/*links ativos. quando clicado*/
+.sem-conta a:active{
+	color: black;
+}
+
+
+/*area de obter o app*/
+
+.obter-app img{
+	padding-top: 1.5em;
+	width: 35%;
+}
+
+/*estilo do rodapé*/
+.rodape{
+	text-align: center;
+	color: #B2BABB;
+	position: absolute;
+	bottom: 7em;
+}
+.rodape a{
+	margin: 1.2em;
+}
+.rodape p{
+	margin-top: 2em;
+}
+/*links não visitados*/
+.rodape a:link{
+	color: #B2BABB;
+}
+/*links visitados*/
+.rodape a:visited{
+	color: #B2BABB;
+}
+/*links hover, ao passar o cursor sobre o link*/
+.rodape a:hover{
+	color: #515A5A ;
+}
+
+/*links ativos. quando clicado*/
+.rodape a:active{
+	color: black;
+}
+
+
+
